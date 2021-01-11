@@ -265,6 +265,12 @@ main {
   transition: var(--transition);
   border-color: var(--clr-primary-5);
   cursor: pointer;
+
+  /* Added by Bob Martin Karugaba */
+  display:block;
+  position:relative;
+  left: 50%;
+  transform: translateX(-50%)
 }
 .random-btn:hover {
   background: var(--clr-primary-5);
